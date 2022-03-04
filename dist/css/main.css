@@ -55,6 +55,32 @@
   border-bottom: .2rem solid #6F8AF4;
 }
 
+.nav {
+  font-family: "PT Serif", serif;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  padding: 1.5rem;
+  margin-top: 4rem;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-menu_item {
+  list-style: none;
+  padding-inline: .27rem;
+}
+
+.active {
+  color: #D35655;
+}
+
 body {
   background-color: #24273D;
   color: white;
