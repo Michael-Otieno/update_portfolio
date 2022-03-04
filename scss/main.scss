@@ -1,3 +1,13 @@
+$primary-color:#24273D;
+$accent-color:#D35655;
+$main-text-color:#FFF7D6;
+$sub-text-color:#ECEEFF;
+$font-weights:(
+    "regular":400,
+    "medium":500,
+    "bold":900
+);
+
 body{
-    background-color: blue;
+    background-color: $primary-color;
 }
