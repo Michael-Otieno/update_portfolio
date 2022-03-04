@@ -1,9 +1,59 @@
+
+.menu-vertice{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_one{
+        border-bottom: 1px solid #D35655;
+        width: 62%;        
+        margin-top: 2.8rem;
+    }
+    &_two{
+        border-left: 1px solid #D35655;
+        width: 20%;
+        padding-top: 2.8rem;
+        position: absolute;
+        top: 100%;
+        left: 19%;
+    }
+    &_three{
+        border-left: 1px solid #D35655;
+        width: 20%;
+        padding-top: 2.8rem;
+        position: absolute;
+        top: 100%;
+        left: 38%;        
+    }
+    &_four{
+        border-left: 1px solid #D35655;
+        width: 20%;
+        padding-top: 2.8rem;
+        position: absolute;
+        top: 100%;
+        left: 58%;        
+    }
+    &_five{
+        border-left: 1px solid #D35655;
+        width: 20%;
+        padding-top: 2.8rem;
+        position: absolute;
+        top: 100%;
+        left: 80.8%;        
+    }
+}
+
+
+
+
+
+
 .nav{
     font-family: $heading-font-family;
     text-transform: uppercase;
     font-size: 0.7rem;
     padding: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 
     &-menu{
         display: flex;
@@ -19,18 +69,4 @@
 }
 .active{
     color: #D35655;
-}
-
-.menu-vertice{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    &_one{
-        border-bottom: 1px solid #D35655;
-        width: 62%;        
-        margin-top: 2.8rem;
-      
-
-    }
 }
