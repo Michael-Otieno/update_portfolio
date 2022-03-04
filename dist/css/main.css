@@ -60,7 +60,7 @@
   text-transform: uppercase;
   font-size: 0.7rem;
   padding: 1.5rem;
-  margin-top: 4rem;
+  margin-top: 1.5rem;
 }
 
 .nav-menu {
@@ -79,6 +79,25 @@
 
 .active {
   color: #D35655;
+}
+
+.menu-vertice {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu-vertice_one {
+  border-bottom: 1px solid #D35655;
+  width: 62%;
+  margin-top: 2.8rem;
 }
 
 body {

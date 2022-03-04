@@ -3,7 +3,7 @@
     text-transform: uppercase;
     font-size: 0.7rem;
     padding: 1.5rem;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
 
     &-menu{
         display: flex;
@@ -19,4 +19,18 @@
 }
 .active{
     color: #D35655;
+}
+
+.menu-vertice{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_one{
+        border-bottom: 1px solid #D35655;
+        width: 62%;        
+        margin-top: 2.8rem;
+      
+
+    }
 }
