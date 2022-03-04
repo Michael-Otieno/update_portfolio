@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&family=PT+Serif:wght@700&display=swap');
+
+$primary-color:#24273D;
+$secondary-color:#D35655;
+
+$heading-text-color:#ECEEFF;
+$content-text-color:#FFF7D6;
+
+
+$heading-font-family: 'PT Serif', serif;
+$heading-font-weight:('bold':700);
+
+$content-font-family: 'Nunito', sans-serif;
+$content-font-weights:(
+    "extra-light":200,
+    "regular":400,
+    // "bold":900
+);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

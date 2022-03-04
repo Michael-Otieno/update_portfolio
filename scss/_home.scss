@@ -1,0 +1,45 @@
+.home {
+    height: 100%;
+    padding-top: 20vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    &-tag{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.2rem;
+        line-height: 1.2;
+        font-family: $content-font-family;
+        color: $content-text-color;
+        font-weight: map-get($content-font-weights, extra-light);
+        margin-bottom: 1.5rem;
+        &_name {
+           color: #ECEEFF;
+           font-weight: map-get($content-font-weights, regular);
+        }
+        &_title{
+            color: #ECEEFF;
+            font-weight: map-get($content-font-weights, regular);
+
+
+        }
+    }
+    &-hamburger{
+        width: 20%;
+        margin: 0 auto;
+    &_icon{
+            border-bottom: .2rem solid #ECEEFF;
+            padding: 15px;
+            margin: 0.2rem;
+            width: 2px;
+            margin-right: .2rem;
+            
+
+        }
+        .active{
+            border-bottom: .2rem solid #6F8AF4;
+
+        }
+    }
+}

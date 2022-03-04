@@ -1,13 +1,24 @@
-$primary-color:#24273D;
-$accent-color:#D35655;
-$main-text-color:#FFF7D6;
-$sub-text-color:#ECEEFF;
-$font-weights:(
-    "regular":400,
-    "medium":500,
-    "bold":900
-);
+@import 'config';
+@import 'home';
 
 body{
     background-color: $primary-color;
+    color: white;
+    height: 100vh;
+    line-height: 1;
+    // padding: 4rem;
+}
+a{
+    color: $heading-text-color;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 1rem;
+}
+main{
+    height: 100%;
+    width: 100%;
 }
