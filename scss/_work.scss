@@ -1,0 +1,32 @@
+.project{
+    padding-top: 22vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    &-image{
+        height: 170px;
+        width: 80%;
+        
+    }
+    &-hover{
+        display: none;
+        background-color: red;
+        position: absolute;
+        color: black;
+        top: 70%;
+        left: 29%;
+
+    }
+}
+.title{
+    margin-left: 36px;
+    margin-top: 7px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: $content-font-family;
+    color: $content-text-color;
+    font-weight: map-get($content-font-weights, extra-light);
+    font-size: .8rem;
+
+}

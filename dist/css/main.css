@@ -139,12 +139,45 @@
   color: #D35655;
 }
 
+.project {
+  padding-top: 22vh;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.project-image {
+  height: 170px;
+  width: 80%;
+}
+
+.project-hover {
+  display: none;
+  background-color: red;
+  position: absolute;
+  color: black;
+  top: 70%;
+  left: 29%;
+}
+
+.title {
+  margin-left: 36px;
+  margin-top: 7px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-family: "Nunito", sans-serif;
+  color: #FFF7D6;
+  font-weight: 200;
+  font-size: .8rem;
+}
+
 body {
   background-color: #24273D;
   color: white;
-  height: 100vh;
   line-height: 1;
-  position: relative;
 }
 
 a {
