@@ -4,13 +4,17 @@
     width: 100%;
     position: relative;
     padding-left: 10px;
-    // &-para{
-
-    // }
+    &-para{
+        font-family: $content-font-family;
+        font-size: .8rem;
+        line-height: 1.2;
+        color: $content-text-color;
+        font-weight: map-get($content-font-weights, extra-light);
+    }
     &-tech{
         margin-top: 30px;
         display: flex;
-        overflow: hidden;
+        // overflow: hidden;
 
     }
 }
