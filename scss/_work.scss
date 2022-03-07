@@ -1,24 +1,53 @@
 .project{
     padding-top: 22vh;
     overflow: hidden;
-    align-items: center;
-    text-align: center;
+    width: 100%;
     position: relative;
+
     &-image{
-        height: 170px;
+        // height: 170px;
+        opacity: 1;
+        display: block;
         width: 80%;
+        height: auto;
+        transition: .5s ease; 
+        backface-visibility: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px; 
         
     }
-    &-hover{
-        display: none;
-        background-color: red;
+    &-text{
+        transition: .5s ease;
+        // opacity: 0;
         position: absolute;
+        text-transform: lowercase;
+        color: #24273D;
+        top: 78%;
+        left: 50%;
         color: black;
-        top: 70%;
-        left: 29%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%,-50%);
+    
+    }
+
+    &:hover{
+        opacity: 0.3;
+        cursor: pointer;
+        
+        &-text{
+            opacity: 1;
+        }
 
     }
+ 
+    
 }
+
+
+
+
+
 .title{
     margin-left: 36px;
     margin-top: 7px;

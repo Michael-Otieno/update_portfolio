@@ -142,25 +142,45 @@
 .project {
   padding-top: 22vh;
   overflow: hidden;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
+  width: 100%;
   position: relative;
 }
 
 .project-image {
-  height: 170px;
+  opacity: 1;
+  display: block;
   width: 80%;
+  height: auto;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
 }
 
-.project-hover {
-  display: none;
-  background-color: red;
+.project-text {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
   position: absolute;
+  text-transform: lowercase;
+  color: #24273D;
+  top: 78%;
+  left: 50%;
   color: black;
-  top: 70%;
-  left: 29%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.project:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.project:hover-text {
+  opacity: 1;
 }
 
 .title {
