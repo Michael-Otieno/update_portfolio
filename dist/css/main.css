@@ -14,7 +14,7 @@
 
 .details-image {
   width: 90%;
-  height: 120px;
+  height: 160px;
   border-radius: 3px;
   margin-bottom: 5px;
 }
@@ -256,6 +256,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.center {
+  padding-top: 22vh;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  padding-left: 10px;
 }
 
 body {
