@@ -1,0 +1,37 @@
+.details{
+    padding-top: 30px;
+    margin-left: 12px;
+    position: relative;
+    &-image{
+        width: 90%;
+        height: 120px;
+        border-radius: 3px;
+        margin-bottom: 5px;
+
+    }
+    &-name{
+        font-family: $content-font-family;
+        font-size: .8rem;
+        line-height: 1.2;
+        &_title{
+            color: $secondary-color;
+            text-transform: capitalize;
+            font-weight: map-get($content-font-weights, regular);
+        }
+        &_content{
+            color: $content-text-color;
+            text-transform: capitalize;
+            font-weight: map-get($content-font-weights, extra-light);
+        }
+
+    }
+    &-cancel{
+        position: absolute;
+        top: 2%;
+        right: 6%;
+        background: white;
+        color: black;
+        border-radius: 50%;
+        padding: 3px;
+    }
+}

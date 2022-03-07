@@ -1,16 +1,16 @@
 @import 'config';
+@import 'detail';
 @import 'home';
 @import 'nav';
 @import 'work';
 
+
+
 body{
     background-color: $primary-color;
     color: white;
-    // height: 100vh;
     line-height: 1;
-    // position: relative;
 
-    // padding: 4rem;
 }
 a{
     color: $heading-text-color;
@@ -23,6 +23,5 @@ header{
     padding: 1rem;
 }
 main{
-    // height: 100%;
     width: 100%;
 }
