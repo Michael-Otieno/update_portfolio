@@ -1,9 +1,9 @@
 .home {
-    height: 100%;
     padding-top: 22vh;
     overflow: hidden;
     align-items: center;
     text-align: center;
+
     &-tag{
         width: 80%;
         margin-left: auto;
@@ -13,7 +13,6 @@
         font-family: $content-font-family;
         color: $content-text-color;
         font-weight: map-get($content-font-weights, extra-light);
-        margin-bottom: 1.5rem;
         &_name {
            color: #ECEEFF;
            font-weight: map-get($content-font-weights, regular);
@@ -25,21 +24,19 @@
 
         }
     }
-    &-hamburger{
-        width: 20%;
-        margin: 0 auto;
+    
+}
+.home-hamburger{
+    align-items: center;
+    text-align: center;
     &_icon{
-            border-bottom: .2rem solid #ECEEFF;
-            padding: 15px;
-            margin: 0.2rem;
-            width: 2px;
-            margin-right: .2rem;
-            
-
-        }
-        .active{
-            border-bottom: .2rem solid #6F8AF4;
-
-        }
+        border-bottom: .2rem solid #ECEEFF;
+        padding: 12px;
+        width: 2px;
+        margin-inline: .2rem;
+    }
+    .active{
+        border-bottom: .2rem solid #6F8AF4;
     }
 }
+   
