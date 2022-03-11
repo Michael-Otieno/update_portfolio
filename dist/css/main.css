@@ -183,6 +183,10 @@
   color: #D35655;
 }
 
+.projects {
+  padding-bottom: 100px;
+}
+
 .project {
   padding-top: 3vh;
   overflow: hidden;
@@ -306,6 +310,7 @@
   bottom: 0px;
   position: fixed;
   text-align: center;
+  margin-top: 40px;
 }
 
 .footer-icons_one {
