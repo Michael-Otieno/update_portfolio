@@ -305,6 +305,11 @@
   color: #ECEEFF;
 }
 
+.center-img {
+  width: 5%;
+  margin: 4px;
+}
+
 .footer {
   width: 100%;
   bottom: 0px;

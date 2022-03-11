@@ -9,6 +9,11 @@
         font-weight: map-get($content-font-weights, extra-light);
         color: $content-text-color;
 
+
+    }
+    &-img{
+        width: 5%;
+        margin: 4px;
     }
 }
 
