@@ -1,13 +1,42 @@
-.center{
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.center {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  &-para{
-    font-family: $content-font-family;
-    font-weight: map-get($content-font-weights, extra-light);
-    color: $content-text-color;
+    &-para {
+        font-family: $content-font-family;
+        font-weight: map-get($content-font-weights, extra-light);
+        color: $content-text-color;
 
-  }
+    }
+}
+
+.footer {
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    &-icons {
+
+        &_one {
+            width: 5%;
+        }
+
+        &_two {
+            width: 5%;
+        }
+
+        &_three {
+            width: 5%;
+        }
+
+        &_four {
+            width: 5%;
+        }
+    }
+    &-copyright{
+        color: $heading-text-color;
+        font-size: .8rem;
+    }
 }

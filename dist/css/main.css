@@ -279,6 +279,34 @@
   color: #ECEEFF;
 }
 
+.footer {
+  width: 100%;
+  bottom: 0px;
+  position: fixed;
+  text-align: center;
+}
+
+.footer-icons_one {
+  width: 5%;
+}
+
+.footer-icons_two {
+  width: 5%;
+}
+
+.footer-icons_three {
+  width: 5%;
+}
+
+.footer-icons_four {
+  width: 5%;
+}
+
+.footer-copyright {
+  color: #FFF7D6;
+  font-size: .8rem;
+}
+
 body {
   background-color: #24273D;
   color: white;
