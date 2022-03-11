@@ -1,12 +1,11 @@
 .skills{
-    // padding-top: 22vh;
     overflow: hidden;
     width: 100%;
     position: relative;
     padding-left: 10px;
     &-para{
         font-family: $content-font-family;
-        font-size: .8rem;
+        font-size: .9rem;
         line-height: 1.2;
         color: $content-text-color;
         font-weight: map-get($content-font-weights, extra-light);
@@ -14,7 +13,25 @@
     &-tech{
         margin-top: 30px;
         display: flex;
-        // overflow: hidden;
+        justify-content: center;
+        ul{
+            margin-inline: 20px;
+            line-height: 1.2;
+
+        }
+        li{
+            list-style: none;
+            font-family: $content-font-family;
+            color: $content-text-color;
+            font-weight: map-get($content-font-weights, extra-light);
+            font-size: .8rem;
+
+
+            img{
+                width: 20%;
+                height: 20px;
+            }
+        }
 
     }
 }

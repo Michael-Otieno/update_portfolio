@@ -247,7 +247,7 @@
 
 .skills-para {
   font-family: "Nunito", sans-serif;
-  font-size: .8rem;
+  font-size: .9rem;
   line-height: 1.2;
   color: #ECEEFF;
   font-weight: 200;
@@ -258,6 +258,27 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skills-tech ul {
+  margin-inline: 20px;
+  line-height: 1.2;
+}
+
+.skills-tech li {
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+  color: #ECEEFF;
+  font-weight: 200;
+  font-size: .8rem;
+}
+
+.skills-tech li img {
+  width: 20%;
+  height: 20px;
 }
 
 .center {
