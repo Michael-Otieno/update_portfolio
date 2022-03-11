@@ -16,23 +16,27 @@
   width: 90%;
   height: 160px;
   border-radius: 3px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .details-name {
   font-family: "Nunito", sans-serif;
   font-size: .8rem;
-  line-height: 1.2;
+  line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .details-name_title {
   color: #D35655;
   text-transform: capitalize;
   font-weight: 400;
+  margin-right: 2px;
 }
 
 .details-name_content {
-  color: #FFF7D6;
+  color: #ECEEFF;
   text-transform: capitalize;
   font-weight: 200;
 }
@@ -48,7 +52,7 @@
 }
 
 .home {
-  padding-top: 22vh;
+  padding-top: 10vh;
   overflow: hidden;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -63,7 +67,6 @@
   font-size: 1.2rem;
   line-height: 1.2;
   font-family: "Nunito", sans-serif;
-  color: #FFF7D6;
   font-weight: 200;
 }
 
@@ -73,7 +76,7 @@
 }
 
 .home-tag_title {
-  color: #ECEEFF;
+  color: #FFF7D6;
   font-weight: 400;
 }
 
@@ -181,7 +184,7 @@
 }
 
 .project {
-  padding-top: 22vh;
+  padding-top: 3vh;
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -230,13 +233,12 @@
   text-transform: capitalize;
   text-decoration: underline;
   font-family: "Nunito", sans-serif;
-  color: #FFF7D6;
+  color: #ECEEFF;
   font-weight: 200;
   font-size: .8rem;
 }
 
 .skills {
-  padding-top: 22vh;
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -247,7 +249,7 @@
   font-family: "Nunito", sans-serif;
   font-size: .8rem;
   line-height: 1.2;
-  color: #FFF7D6;
+  color: #ECEEFF;
   font-weight: 200;
 }
 
@@ -259,7 +261,6 @@
 }
 
 .center {
-  padding-top: 22vh;
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -273,13 +274,11 @@ body {
 }
 
 a {
-  color: #ECEEFF;
+  color: #FFF7D6;
   text-decoration: none;
 }
 
 header {
-  position: fixed;
-  z-index: 2;
   width: 100%;
   padding: 1rem;
 }

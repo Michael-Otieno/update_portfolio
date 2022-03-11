@@ -1,5 +1,5 @@
 .home {
-    padding-top: 22vh;
+    padding-top: 10vh;
     overflow: hidden;
     align-items: center;
     text-align: center;
@@ -11,14 +11,13 @@
         font-size: 1.2rem;
         line-height: 1.2;
         font-family: $content-font-family;
-        color: $content-text-color;
         font-weight: map-get($content-font-weights, extra-light);
         &_name {
-           color: #ECEEFF;
-           font-weight: map-get($content-font-weights, regular);
+            color: $content-text-color;
+            font-weight: map-get($content-font-weights, regular);
         }
         &_title{
-            color: #ECEEFF;
+            color: $heading-text-color;
             font-weight: map-get($content-font-weights, regular);
 
 
