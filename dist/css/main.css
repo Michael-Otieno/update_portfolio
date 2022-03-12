@@ -44,11 +44,10 @@
 .details-cancel {
   position: absolute;
   top: 2%;
-  right: 6%;
-  background: white;
-  color: black;
-  border-radius: 50%;
-  padding: 3px;
+  right: 7%;
+  background: #FFF7D6;
+  border-radius: 100%;
+  padding: 2px;
 }
 
 .home {
@@ -265,6 +264,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.skills-tech_logo {
+  color: #D35655;
 }
 
 .skills-tech ul {

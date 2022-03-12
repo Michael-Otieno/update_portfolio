@@ -13,7 +13,6 @@
         font-family: $content-font-family;
         font-size: .8rem;
         line-height: 1.5;
-        // padding-right: 5px;
         display: flex;
         &_title{
             color: $secondary-color;
@@ -31,10 +30,9 @@
     &-cancel{
         position: absolute;
         top: 2%;
-        right: 6%;
-        background: white;
-        color: black;
-        border-radius: 50%;
-        padding: 3px;
+        right: 7%;
+        background: $heading-text-color;
+        border-radius: 100%;
+        padding: 2px;
     };
 }
