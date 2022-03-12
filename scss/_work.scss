@@ -22,17 +22,15 @@
     &-text{
         transition: .5s ease;
         // opacity: 0;
+        font-size: .9rem;
         position: absolute;
         text-transform: lowercase;
-        color: #24273D;
-        top: 50%;
+        color: $content-text-color;
+        top: 60%;
         left: 50%;
-        color: black;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%,-50%);
-    
     }
-
     &:hover{
         opacity: 0.3;
         cursor: pointer;
@@ -59,6 +57,3 @@
     font-size: .8rem;
 
 }
-// .details{
-//     padding: 20px 40px;
-// }
