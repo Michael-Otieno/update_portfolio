@@ -298,7 +298,6 @@
 }
 
 .center {
-  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,16 +307,28 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  line-height: 2;
 }
 
 .center-para {
   font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  padding-inline: 3px;
+  text-align: center;
+  font-size: .9rem;
+}
+
+.center-gmail {
+  font-family: "Nunito", sans-serif;
   font-weight: 200;
   color: #ECEEFF;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #D35655;
+          text-decoration-color: #D35655;
 }
 
 .center-img {
-  width: 5%;
+  width: 4%;
   margin: 4px;
 }
 

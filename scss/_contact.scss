@@ -1,18 +1,30 @@
 .center {
-    height: 200px;
+    // height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
+    line-height: 2;
 
-    &-para {
+    &-para{
+        font-family: $content-font-family;
+        font-weight: map-get($content-font-weights, regular);
+        padding-inline: 3px;
+        text-align: center;
+        font-size: .9rem;
+
+    }
+
+    &-gmail {
         font-family: $content-font-family;
         font-weight: map-get($content-font-weights, extra-light);
         color: $content-text-color;
+        text-decoration: underline;
+        text-decoration-color: $secondary-color;
 
 
     }
     &-img{
-        width: 5%;
+        width: 4%;
         margin: 4px;
     }
 }
