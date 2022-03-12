@@ -41,6 +41,10 @@
   font-weight: 200;
 }
 
+.details-name_content a {
+  color: #ECEEFF;
+}
+
 .details-cancel {
   position: absolute;
   top: 2%;
@@ -257,10 +261,11 @@
   line-height: 1.2;
   color: #ECEEFF;
   font-weight: 200;
+  padding-inline: 10px;
 }
 
 .skills-tech {
-  margin-top: 30px;
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

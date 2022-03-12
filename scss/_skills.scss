@@ -9,9 +9,10 @@
         line-height: 1.2;
         color: $content-text-color;
         font-weight: map-get($content-font-weights, extra-light);
+        padding-inline: 10px;
     }
     &-tech{
-        margin-top: 30px;
+        margin-top: 20px;
         display: flex;
         justify-content: center;
         &_logo{

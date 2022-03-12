@@ -24,6 +24,9 @@
             color: $content-text-color;
             text-transform: capitalize;
             font-weight: map-get($content-font-weights, extra-light);
+            a{
+                color: $content-text-color;
+            }
         }
 
     };
