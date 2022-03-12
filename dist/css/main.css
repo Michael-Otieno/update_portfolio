@@ -215,24 +215,28 @@
 .project-text {
   -webkit-transition: .5s ease;
   transition: .5s ease;
+  opacity: 0;
   font-size: .9rem;
   position: absolute;
   text-transform: lowercase;
   color: #ECEEFF;
   top: 60%;
   left: 50%;
+  text-align: center;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
 
-.project:hover {
-  opacity: 0.3;
+.project:hover .project-image {
+  opacity: 0.2;
   cursor: pointer;
 }
 
-.project:hover-text {
+.project:hover .project-text {
   opacity: 1;
+  color: white;
+  z-index: 10;
 }
 
 .title {

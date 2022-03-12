@@ -21,24 +21,25 @@
     }
     &-text{
         transition: .5s ease;
-        // opacity: 0;
+        opacity: 0;
         font-size: .9rem;
         position: absolute;
         text-transform: lowercase;
         color: $content-text-color;
         top: 60%;
         left: 50%;
+        text-align: center;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%,-50%);
     }
-    &:hover{
-        opacity: 0.3;
+    &:hover &-image{
+        opacity: 0.2;
         cursor: pointer;
-        
-        &-text{
-            opacity: 1;
-        }
-
+    }
+    &:hover &-text{
+        opacity: 1;
+        color: white;
+        z-index: 10;
     }
  
     
