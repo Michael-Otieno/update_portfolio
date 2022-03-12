@@ -88,6 +88,7 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  margin-top: 15px;
 }
 
 .home-hamburger_icon {
@@ -235,6 +236,8 @@
   margin-top: 7px;
   text-transform: capitalize;
   text-decoration: underline;
+  -webkit-text-decoration-color: #D35655;
+          text-decoration-color: #D35655;
   font-family: "Nunito", sans-serif;
   color: #ECEEFF;
   font-weight: 200;

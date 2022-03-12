@@ -52,6 +52,7 @@
     margin-top: 7px;
     text-transform: capitalize;
     text-decoration: underline;
+    text-decoration-color: $secondary-color;
     font-family: $content-font-family;
     color: $content-text-color;
     font-weight: map-get($content-font-weights, extra-light);
