@@ -430,7 +430,7 @@
   .skills-para {
     font-size: 1.2rem;
     line-height: 1.8;
-    padding-inline: 250px;
+    padding-inline: 136px;
   }
   .skills-tech {
     margin-top: 20px;
@@ -453,13 +453,24 @@
     width: 2%;
     margin: 4px;
   }
+  .footer-icons {
+    width: 14%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3px;
+  }
 }
 
-.footer-icons {
-  width: 10%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 3px;
+@media screen and (min-width: 1024px) {
+  .skills-para {
+    padding-inline: 250px;
+  }
+  .footer-icons {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3px;
+  }
 }
 
 body {

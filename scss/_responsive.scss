@@ -31,7 +31,6 @@
     
     }
   }
-
   .title {
     margin-left: 320px;
     margin-top: 28px;
@@ -45,7 +44,6 @@
     font-weight: 200;
     font-size: 1.2rem;
   }
-
   .details{
       padding-top: 60px;
       position: absolute;
@@ -70,13 +68,12 @@
     }
 
   };
-
   .skills{
       margin-top: 10px;
     &-para{
       font-size: 1.2rem;
       line-height: 1.8;
-      padding-inline: 250px;
+      padding-inline: 136px;
     }
 
     &-tech{
@@ -94,33 +91,38 @@
       }
   }
   }
-
   .center {
     &-para{
-        font-size: 1.1rem;
+      font-size: 1.1rem;
     }
     &-img{
-        width: 2%;
-        margin: 4px;
+      width: 2%;
+      margin: 4px;
     }
-}
+  }
 
-
-
-
-
-
-
-
-
-
-  // 
- 
-
+  .footer {
+    &-icons{
+      width: 14%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 3px;
+    }
+  }
 
 }
 
-  
+
+
+
+
+
+@include media-lg{
+  .skills{
+    &-para{
+      padding-inline: 250px;
+    }
+};
 .footer {
   &-icons{
     width: 10%;
@@ -129,27 +131,4 @@
     padding-bottom: 3px;
   }
 }
-    
-
-
- 
-
-
-
-@include media-lg{
-
 }
-
-
-
-// .skills-para {
-//     font-size: .9rem;
-//     line-height: 1.2;
-//     color: #ECEEFF;
-//     font-weight: 200;
-//     width: 65%;
-//     text-align: center;
-//     margin-left: auto;
-//     margin-right: auto;
-//     padding-top: 24px;
-//   }

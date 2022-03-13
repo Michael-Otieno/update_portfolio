@@ -4,9 +4,8 @@ const createFooter = () => {
     footer.innerHTML = `
     <div class="footer-icons">
         <img src="./img/icons/linkedin-brands.svg" alt="" class="footer-icons">
-        <img src="./img/icons/linkedin-brands.svg" alt=""  class="footer-icons">
         <img src="./img/icons/github-brands.svg" alt="" class="footer-icons">
-        <img src="./img/icons/github-brands.svg" alt="" class="footer-icons">
+        <img src="./img/icons/twitter-square-brands.svg" alt=""  class="footer-icons">
     </div>
     <p class="footer-copyright">&copy;2022 Michael Otieno</p>
 
