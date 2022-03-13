@@ -357,20 +357,8 @@
   margin-top: 40px;
 }
 
-.footer-icons_one {
-  width: 3%;
-}
-
-.footer-icons_two {
-  width: 3%;
-}
-
-.footer-icons_three {
-  width: 3%;
-}
-
-.footer-icons_four {
-  width: 3%;
+.footer-icons {
+  width: 18%;
 }
 
 .footer-copyright {
@@ -391,9 +379,13 @@
     margin-right: 100px;
     padding-top: 7vh;
     margin-bottom: 40px;
+    overflow: hidden;
   }
   .home-tag {
     font-size: 2rem;
+  }
+  .footer-icons {
+    width: 10%;
   }
 }
 

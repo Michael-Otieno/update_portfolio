@@ -13,10 +13,21 @@
     margin-right: 100px;
     padding-top: 7vh;
     margin-bottom: 40px;
+    overflow: hidden;
+
 
     &-tag{
       font-size: 2rem;
 
+    }
+  }
+
+  
+
+  .footer {
+    
+    &-icons{
+      width: 10%;
     }
   }
 
