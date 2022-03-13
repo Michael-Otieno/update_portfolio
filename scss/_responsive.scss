@@ -1,11 +1,41 @@
-.skills-para {
-    font-size: .9rem;
-    line-height: 1.2;
-    color: #ECEEFF;
-    font-weight: 200;
-    width: 65%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 24px;
+@include media-md{
+  .nav{
+    font-size: 1rem;
+
   }
+  .menu-vertice{
+    &_five{
+      left: 80.9%;        
+  }
+  }
+  .home{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 7vh;
+    margin-bottom: 40px;
+
+    &-tag{
+      font-size: 2rem;
+
+    }
+  }
+
+}
+
+@include media-lg{
+
+}
+
+
+
+// .skills-para {
+//     font-size: .9rem;
+//     line-height: 1.2;
+//     color: #ECEEFF;
+//     font-weight: 200;
+//     width: 65%;
+//     text-align: center;
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding-top: 24px;
+//   }

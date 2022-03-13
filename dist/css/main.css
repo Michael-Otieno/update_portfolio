@@ -379,6 +379,24 @@
   font-size: .6rem;
 }
 
+@media screen and (min-width: 768px) {
+  .nav {
+    font-size: 1rem;
+  }
+  .menu-vertice_five {
+    left: 80.9%;
+  }
+  .home {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 7vh;
+    margin-bottom: 40px;
+  }
+  .home-tag {
+    font-size: 2rem;
+  }
+}
+
 body {
   background-color: #24273D;
   color: white;
