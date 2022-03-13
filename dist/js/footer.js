@@ -7,15 +7,14 @@ const createFooter = () => {
             <img src="./img/icons/linkedin-brands.svg" alt="" class="footer-icons">
         </a>
 
-        <a href="http://" target="_blank">
+        <a href="https://github.com/Michael-Otieno/" target="_blank">
             <img src="./img/icons/github-brands.svg" alt="" class="footer-icons">
         </a>
-        <a href="http://" target="_blank">
+        <a href="https://twitter.com/justDoCode" target="_blank">
             <img src="./img/icons/twitter-square-brands.svg" alt=""  class="footer-icons">
         </a>
     </div>
     <p class="footer-copyright">&copy;2022 Michael Otieno</p>
-
-    `
+`
 }
 createFooter();
