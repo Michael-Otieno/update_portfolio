@@ -27,8 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![![image]()
-](./sunny.png)
+<img src="/port.png" alt="image" width="1000px" height="400px">
 
 ## My process
 ### Built with
@@ -44,7 +43,7 @@ Users should be able to:
 <h1>I learned SCSS</h1>
 ```
 ```scss
-.love-scss {
+.scss {
   color: papayawhip;
 }
 ```
