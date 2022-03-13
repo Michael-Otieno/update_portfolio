@@ -37,7 +37,6 @@
 
 .details-name_content {
   color: #ECEEFF;
-  text-transform: capitalize;
   font-weight: 200;
 }
 
@@ -404,9 +403,32 @@
     font-weight: 200;
     font-size: 1.2rem;
   }
-  .footer-icons {
-    width: 10%;
+  .details {
+    padding-top: 60px;
+    position: absolute;
+    left: 25%;
   }
+  .details-image {
+    width: 70%;
+    height: 250px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  .details-name {
+    font-size: 1rem;
+  }
+  .details-name_title {
+    margin-right: 1px;
+  }
+  .details-cancel {
+    top: 3.6%;
+    right: 28.7%;
+    padding: 3px;
+  }
+}
+
+.footer-icons {
+  width: 10%;
 }
 
 body {

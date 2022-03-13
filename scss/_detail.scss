@@ -1,6 +1,6 @@
 .details{
-    padding-top: 30px;
-    margin-left: 12px;
+    padding-top:30px;
+    margin-left:12px;
     position: relative;
     &-image{
         width: 90%;
@@ -22,7 +22,7 @@
         }
         &_content{
             color: $content-text-color;
-            text-transform: capitalize;
+            // text-transform: capitalize;
             font-weight: map-get($content-font-weights, extra-light);
             a{
                 color: $content-text-color;

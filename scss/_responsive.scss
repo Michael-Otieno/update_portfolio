@@ -21,7 +21,6 @@
 
     }
   }
-
   .project{
     &-image{
       width: 50%;
@@ -47,8 +46,34 @@
     font-size: 1.2rem;
   }
 
+  .details{
+      padding-top: 60px;
+      position: absolute;
+      left: 25%;
+    &-image{
+      width: 70%;
+      height: 250px;
+      border-radius: 3px;
+      margin-bottom: 10px;
+    }
 
-  
+    &-name{
+      font-size: 1rem;
+      &_title{
+        margin-right: 1px;
+      }
+    }
+    &-cancel{
+      top: 3.6%;
+      right: 28.7%;
+      padding: 3px;
+    }
+
+  };
+
+    
+}
+
   .footer {
     
     &-icons{
@@ -56,7 +81,7 @@
     }
   }
 
-}
+
 
 @include media-lg{
 
