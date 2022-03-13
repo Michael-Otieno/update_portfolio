@@ -118,6 +118,11 @@
 
 
 @include media-lg{
+  .menu-vertice{
+    &_five{
+      left: 80.99%;        
+  }
+  }
   .skills{
     &-para{
       padding-inline: 250px;
@@ -131,4 +136,5 @@
     padding-bottom: 3px;
   }
 }
+
 }
