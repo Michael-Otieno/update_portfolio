@@ -2,7 +2,8 @@
     overflow: hidden;
     width: 100%;
     position: relative;
-    padding-left: 10px;
+    // padding-left: 10px;
+
     &-para{
         font-family: $content-font-family;
         font-size: .9rem;
@@ -11,6 +12,7 @@
         font-weight: map-get($content-font-weights, extra-light);
         padding-inline: 10px;
     }
+
     &-tech{
         margin-top: 20px;
         display: flex;

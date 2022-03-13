@@ -71,15 +71,45 @@
 
   };
 
-    
-}
+  .skills{
+      margin-top: 10px;
+    &-para{
+      font-size: 1.2rem;
+      line-height: 1.8;
+      padding-inline: 250px;
+    }
 
+    &-tech{
+      margin-top: 20px;
+      li{
+          list-style: none;
+          font-family: $content-font-family;
+          color: $content-text-color;
+          font-weight: map-get($content-font-weights, extra-light);
+          font-size: .9rem;
+          img{
+              width: 25%;
+              height: 30px;
+          }
+      }
+  }
+  }
+
+ 
+
+
+  }
+
+  
   .footer {
-    
     &-icons{
       width: 10%;
     }
   }
+    
+
+
+ 
 
 
 

@@ -268,7 +268,6 @@
   overflow: hidden;
   width: 100%;
   position: relative;
-  padding-left: 10px;
 }
 
 .skills-para {
@@ -424,6 +423,28 @@
     top: 3.6%;
     right: 28.7%;
     padding: 3px;
+  }
+  .skills {
+    margin-top: 10px;
+  }
+  .skills-para {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    padding-inline: 250px;
+  }
+  .skills-tech {
+    margin-top: 20px;
+  }
+  .skills-tech li {
+    list-style: none;
+    font-family: "Nunito", sans-serif;
+    color: #ECEEFF;
+    font-weight: 200;
+    font-size: .9rem;
+  }
+  .skills-tech li img {
+    width: 25%;
+    height: 30px;
   }
 }
 
