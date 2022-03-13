@@ -20,7 +20,10 @@
         &_title{
             color: $heading-text-color;
             font-weight: map-get($content-font-weights, regular);
-
+            a{
+                text-decoration: underline;
+                text-decoration-color: $secondary-color;
+            }
 
         }
     }

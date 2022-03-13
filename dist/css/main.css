@@ -85,6 +85,12 @@
   font-weight: 400;
 }
 
+.home-tag_title a {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #D35655;
+          text-decoration-color: #D35655;
+}
+
 .home-hamburger {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -369,7 +375,7 @@
 .footer-copyright {
   color: #FFF7D6;
   font-weight: 200;
-  font-size: .8rem;
+  font-size: .6rem;
 }
 
 body {
