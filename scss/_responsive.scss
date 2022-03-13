@@ -22,8 +22,33 @@
     }
   }
 
-  
+  .project{
+    &-image{
+      width: 50%;
+      height: 250px;
+  }
+  &-text{
+    font-size: 1.2rem;
+    
+  }
+  }
 
+  .title {
+    margin-left: 320px;
+    margin-top: 28px;
+    text-transform: capitalize;
+    text-decoration: underline;
+      text-decoration-color: currentcolor;
+    -webkit-text-decoration-color: #D35655;
+    text-decoration-color: #D35655;
+    font-family: "Nunito", sans-serif;
+    color: #ECEEFF;
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
+
+
+  
   .footer {
     
     &-icons{
