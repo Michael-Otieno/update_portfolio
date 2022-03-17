@@ -15,7 +15,6 @@
             <div class="menu-vertice_three"></div>
             <div class="menu-vertice_four"></div>
             <div class="menu-vertice_five"></div>
-
         </div>
         <nav class="nav">
             <ul class="nav-menu">
@@ -43,25 +42,38 @@
         </nav>
     </header>
     <main>
-        <section class="home">
-            <p class="home-tag">
-                Hello! my name is <span class="home-tag_title">Michael Otieno,</span>
-                I'm a <span class="home-tag_title">Fullstack Web Developer.</span>
-            </p>
-            <p class="home-tag">
-                I love web development because of <span class="home-tag_title">the learning curve, </span> 
-                <span class="home-tag_title">mentorship</span> and <span class="home-tag_title">collaboration</span> with other developers.
-            </p>
-            <p class="home-tag">
-                I'm interested in<span class="home-tag_title"> learning web development. Help me </span>
-                <span class="home-tag_title"><a href="./contact.html">learn?</a></span>
-            </p>
-        </section>
-        <div class="home-hamburger">
-            <span class="home-hamburger_icon" onclick="currentSlide(1)"></span>
-            <span class="home-hamburger_icon" onclick="currentSlide(2)"></span>
-            <span class="home-hamburger_icon" onclick="currentSlide(3)"></span>
-        </div>
+        <div class="slider">
+            <div class="slide active">
+                <p class="slide_tag">
+                    Hello! my name is <span>Michael Otieno,</span>
+                    I'm a <span>Fullstack Web Developer.</span>
+                </p>
+            </div>
+
+            <div class="slide">
+                <p class="slide_tag">
+                    I love web development because of <span>the learning curve, </span> 
+                    <span>mentorship</span> and <span>collaboration</span> with other developers.
+                </p>
+            </div>
+
+            <div class="slide">
+                <p class="home-slide_tag">
+                    I'm interested in<span> learning web development. Help me </span>
+                    <span><a href="./contact.html">learn?</a></span>
+                </p>
+            </div>
+
+            <div class="navigation">
+                <img src="./img/icons/chevron-left-solid.svg" alt="" class="prev-btn">
+                <img src="./img/icons/chevron-right-solid.svg" alt="" class="next-btn">
+            </div>
+            <div class="home-visibility">
+                <div class="slide_icon active"></div>
+                <div class="slide_icon"></div>
+                <div class="slide_icon"></div>
+            </div>
+        </div>      
         <div class="footer"></div>
     </main>
     
