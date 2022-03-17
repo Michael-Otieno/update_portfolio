@@ -5,7 +5,6 @@
     text-align: center;
     
   }
-  
   .slider .slide {
     position: absolute;
     width: 80%;
@@ -21,16 +20,32 @@
   }
   .slide_tag{
     font-weight: map-get($content-font-weights, extra-light);
+    color: $content-text-color;
+    line-height: 1.2;
+    font-size: 1.2rem;
+    font-family: $content-font-family;
+    text-align: center;
+    span{
+      font-weight: map-get($content-font-weights, regular);
+      color: $heading-text-color;
+      font-size: 1.3rem;
+      a{
+        text-decoration: underline;
+        text-decoration-color: $secondary-color;
+      }
+
+    }
 
   }
   
   .navigation {
-    height: 500px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     opacity: 0;
     transition: opacity 0.5s ease;
+    padding-inline: 10px;
   }
   
   .slider:hover .navigation {
@@ -41,34 +56,29 @@
   .next-btn {
     z-index: 999;
     font-size: 2em;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px;
     cursor: pointer;
     height: 10px;
     width: 20px;
+    
   }
   
-  .navigation-visibility {
+  .visibility {
     z-index: 999;
     display: flex;
     justify-content: center;
   }
   
-  .navigation-visibility .slide-icon {
-    z-index: 999;
-    background: rgba(255, 255, 255, 0.5);
-    width: 20px;
-    height: 10px;
+  .visibility .slide-icon {
+    background:  $content-text-color;
+    width: 40px;
+    height: 5px;
     transform: translateY(-50px);
     margin: 0 6px;
     border-radius: 2px;
   }
   
-  .navigation-visibility .slide-icon.active {
-    background: #4285f4;
-  }
-  
-  @media (max-width: 900px) {
+  .visibility .slide-icon.active {
+    background:  $secondary-color;;
     .slider {
       width: 100%;
     }
@@ -81,21 +91,3 @@
     }
   }
   
-  @media (max-width: 500px) {
-    .slider .slide .info h2 {
-      font-size: 1.8em;
-      line-height: 40px;
-    }
-  
-    .slider .slide .info p {
-      font-size: 0.9em;
-    }
-  }
-  
-
-
-
-
-
-
-

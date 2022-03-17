@@ -113,16 +113,25 @@
 
 }
 
-
-
-
-
-
 @include media-lg{
   .menu-vertice{
     &_five{
       left: 80.99%;        
   }
+  }
+  .slider{
+    margin-top: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    .slide_tag{
+      font-size:2rem;
+      span{
+        font-size: 2.2rem;
+  
+      }
+
+    }
   }
   .skills{
     &-para{
@@ -137,5 +146,25 @@
     padding-bottom: 3px;
   }
 }
+
+
+
+
+.center {
+
+  &-para{
+      
+      font-size: 2rem;
+
+  }
+  &-gmail{
+    font-size: 1.2rem;
+  }
+
+  
+  
+}
+
+
 
 }

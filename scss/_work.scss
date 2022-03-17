@@ -10,8 +10,8 @@
     &-image{
         opacity: 1;
         display: block;
-        width: 80%;
-        height: auto;
+        width: 60%;
+        height: 130px;
         transition: .5s ease; 
         backface-visibility: hidden;
         margin-left: auto;
@@ -46,8 +46,8 @@
     
 }
 .title{
-    margin-left: 36px;
-    margin-top: 7px;
+    margin-left: 70px;
+    margin-top: 10px;
     text-transform: capitalize;
     text-decoration: underline;
     text-decoration-color: $secondary-color;
