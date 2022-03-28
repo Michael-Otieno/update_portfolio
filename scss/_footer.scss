@@ -1,19 +1,23 @@
 .footer {
-    // width: 100%;
-    // bottom: 0px;
-    // // position: fixed;
-    // text-align: center;
-    // margin-top: 40px;
-
-    position: sticky;
-    // bottom: 100px;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    // margin-top: 140px;
     z-index: -10;
-    padding: .1em;
-    margin: 0 auto;
-    // width: 75%;
     font-size: 1.5em;
     font-weight: bold;
-    text-align: center;
+
+
+    // position: sticky;
+    // // bottom: 100px;
+    // z-index: -10;
+    // padding: .1em;
+    // margin: 0 auto;
+    // // width: 75%;
+    // font-size: 1.5em;
+    // font-weight: bold;
+    // text-align: center;
 
     
 
