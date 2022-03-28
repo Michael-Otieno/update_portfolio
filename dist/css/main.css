@@ -356,7 +356,7 @@
   margin-right: auto;
   margin-top: 0;
   padding-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .skills-list ul li {
@@ -371,7 +371,7 @@
   color: #ECEEFF;
   font-weight: 200;
   font-size: .8rem;
-  padding-block: 5px;
+  padding-block: 10px;
 }
 
 .skills-list ul li img {
