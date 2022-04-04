@@ -26,6 +26,8 @@
             font-weight: map-get($content-font-weights, extra-light);
             a{
                 color: $content-text-color;
+                text-decoration:underline;
+                text-decoration-color: $secondary-color;
             }
         }
 

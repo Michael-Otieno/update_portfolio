@@ -42,6 +42,9 @@
 
 .details-name_content a {
   color: #ECEEFF;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #D35655;
+          text-decoration-color: #D35655;
 }
 
 .details-cancel {
