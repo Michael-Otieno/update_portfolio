@@ -322,7 +322,7 @@
 
 .skills-para {
   font-family: "Nunito", sans-serif;
-  font-size: .9rem;
+  font-size: 1rem;
   line-height: 1.5;
   color: #ECEEFF;
   font-weight: 200;
@@ -373,13 +373,12 @@
   font-family: "Nunito", sans-serif;
   color: #ECEEFF;
   font-weight: 200;
-  font-size: .8rem;
-  padding-block: 3px;
+  font-size: .9rem;
+  padding-block: 4px;
 }
 
 .skills-list ul li img {
-  width: 10px;
-  height: 10px;
+  width: 20px;
 }
 
 .center {
